@@ -18,6 +18,7 @@ class CreateQuestionTypesTable extends Migration
             $table->timestamps();
             $table->string('Name');
             $table->string('Machine Name');
+            $table->mediumText('description');
 
         });
     }
